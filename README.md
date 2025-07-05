@@ -16,30 +16,30 @@ A Flask app that listens to GitHub Webhooks for push and pull request events and
 4. Frontend fetches and shows events live
 
 ## 📌 Important Notes
-✅ This project demonstrates a Flask-based webhook listener for GitHub events.
+      - This project demonstrates a Flask-based webhook listener for GitHub events.
 
-✅ It uses MongoDB Atlas to store push and pull request data in real time.
+      - It uses MongoDB Atlas to store push and pull request data in real time.
 
-✅ Ngrok is used to expose the local Flask server to the internet for GitHub webhook testing.
+      - Ngrok is used to expose the local Flask server to the internet for GitHub webhook testing.
 
-✅ GitHub sends events to the /webhook route, which are processed and stored with timestamps.
+      - GitHub sends events to the /webhook route, which are processed and stored with timestamps.
 
-✅ Frontend (index.html + script.js) fetches events via /events and displays them live.
+      - Frontend (index.html + script.js) fetches events via /events and displays them live.
 
-✅ Tested with Python 3.10, Flask, and PyMongo.
+      - Tested with Python 3.10, Flask, and PyMongo.
 
-✅ MongoDB URI and credentials are securely managed using a .env file.
+      - MongoDB URI and credentials are securely managed using a .env file.
 
 ## 📦 Deployment Checklist
- Flask app connects to MongoDB Atlas
+       1. Flask app connects to MongoDB Atlas
 
- Webhook receives push and pull_request events
+       2.Webhook receives push and pull_request events
 
- Events are stored and fetched successfully
+       3.Events are stored and fetched successfully
 
- Ngrok exposes the server publicly
+       4.Ngrok exposes the server publicly
 
- UI shows latest GitHub activity
+       5.UI shows latest GitHub activity
 
 ## 📺 Demo
 Watch the video: [Demo Walkthrough](https://drive.google.com/drive/folders/1GMvQAh-TPPHMRVadPHzWWz2Y_2dcRZjY?usp=sharing)
